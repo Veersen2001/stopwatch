@@ -12,8 +12,9 @@ let buttonReset = document.getElementById('button-reset');
 let interval;
 
 buttonStart.addEventListener('click',()=>{
-    clearInterval(interval);
+  
     interval = setInterval(startTimer,10);
+   
     // myInterval = setInterval(function, milliseconds)
 
 })
@@ -50,8 +51,10 @@ buttonStop.addEventListener('click',()=>{
 })
 
 buttonReset.addEventListener('click',()=>{
-    clearInterval(interval); 
-    appendTens.innerHTML = "00";
-    appendSeconds.innerHTML = "00";
+    clearInterval(interval);
+    tens = 00;
+    seconds = 00; 
+    appendTens.innerHTML = ' 00'; 
+    appendSeconds.innerHTML = '00';
 
 })
