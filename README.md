@@ -1,5 +1,5 @@
 # [Project-Stopwatch]
-# [Project Live Link](https://stopwatchveer.netlify.app/)
+# [Project Live Link](https://stopwatch-veer.netlify.app/)
 ## Technology
 - HTML
 - CSS
